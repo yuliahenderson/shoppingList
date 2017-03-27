@@ -1,0 +1,35 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  float: left;
+  padding-left: 15em;
+}
+
+#header {
+  background-color: #facbca;
+  padding: 1em;
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-top: -1em;
+}
+
+#logo {
+  height: 48px;
+  width: 48px;
+  float: right;
+  padding-right: 31em;
+  padding-top: 1em;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  font-size: 0;
+  clear:both;
+  height: 0;
+}
